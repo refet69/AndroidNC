@@ -1,6 +1,7 @@
 package com.example.androidnc;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -33,6 +34,7 @@ public class MainActivity extends  Activity implements OnClickListener {
 		btnlab7 = (Button) findViewById(R.id.btnlab7);
 		btnlab8 = (Button) findViewById(R.id.btnlab8);
 		
+		
 		btnlab1.setOnClickListener(this);
 		btnlab2.setOnClickListener(this);
 		btnlab3.setOnClickListener(this);
@@ -41,6 +43,7 @@ public class MainActivity extends  Activity implements OnClickListener {
 		btnlab6.setOnClickListener(this);
 		btnlab7.setOnClickListener(this);
 		btnlab8.setOnClickListener(this);
+		
 	}
 
 	@Override
@@ -78,7 +81,8 @@ public class MainActivity extends  Activity implements OnClickListener {
 			startActivity(intent);
 		}
 		
+		
+		
 	}
-
 	
 }
