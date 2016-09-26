@@ -1,15 +1,15 @@
-package lab3.com;
+package aboutme.com;
 
 import com.example.androidnc.R;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-public class lab3 extends Activity {
+public class aboutme extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_lab3);
+		setContentView(R.layout.activity_aboutme);
 	}
 }
