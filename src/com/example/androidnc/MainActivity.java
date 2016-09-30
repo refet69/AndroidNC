@@ -2,8 +2,10 @@ package com.example.androidnc;
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.app.IntentService;
 import android.content.Intent;
 import android.os.Bundle;
+import android.preference.PreferenceFragment.OnPreferenceStartFragmentCallback;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,6 +22,7 @@ import lab8.com.lab8;
 
 public class MainActivity extends  Activity implements OnClickListener {
 	Button  btnlab1,btnlab2,btnlab3,btnlab4,btnlab5,btnlab6,btnlab7,btnlab8;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -44,7 +47,9 @@ public class MainActivity extends  Activity implements OnClickListener {
 		btnlab7.setOnClickListener(this);
 		btnlab8.setOnClickListener(this);
 		
+		
 	}
+	
 
 	@Override
 	public void onClick(View v) {

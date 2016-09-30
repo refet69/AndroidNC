@@ -11,9 +11,7 @@ import android.widget.Button;
 public class lab4 extends Activity{
 	Button btndialog,btnExit;
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		
-		// TODO Auto-generated method stub
+	protected void onCreate(Bundle savedInstanceState) {		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_lab4);
 		btndialog = (Button) findViewById(R.id.btndialog);
@@ -27,7 +25,6 @@ public class lab4 extends Activity{
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
 				Login();
 			}
 		});
@@ -46,7 +43,6 @@ public class lab4 extends Activity{
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
 				dialoglogin.dismiss();
 			}
 		});
