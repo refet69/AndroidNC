@@ -34,13 +34,13 @@ public final class R {
     }
     public static final class id {
         public static final int LinearLayout1=0x7f09000e;
-        public static final int action_settings=0x7f09001a;
+        public static final int action_settings=0x7f09001b;
         public static final int btabm=0x7f090008;
-        public static final int btnCall=0x7f090017;
+        public static final int btnCall=0x7f090018;
         public static final int btnExit=0x7f09000c;
-        public static final int btnFix=0x7f090019;
+        public static final int btnFix=0x7f09001a;
         public static final int btnLG=0x7f090007;
-        public static final int btnMS=0x7f090018;
+        public static final int btnMS=0x7f090019;
         public static final int btnabm=0x7f090002;
         public static final int btndialog=0x7f090009;
         public static final int btnlab1=0x7f09000f;
@@ -56,6 +56,7 @@ public final class R {
         public static final int editText2=0x7f090006;
         public static final int fileWebView=0x7f090001;
         public static final int listDanhBa=0x7f09000d;
+        public static final int textView1=0x7f090017;
         public static final int textView3=0x7f090005;
         public static final int txtSdt=0x7f090003;
         public static final int txtTenDB=0x7f090000;
@@ -73,7 +74,10 @@ public final class R {
         public static final int activity_lab7=0x7f030008;
         public static final int activity_lab8=0x7f030009;
         public static final int activity_main=0x7f03000a;
-        public static final int item_view=0x7f03000b;
+        public static final int activity_tab1_lab6=0x7f03000b;
+        public static final int activity_tab2_lab6=0x7f03000c;
+        public static final int activity_tab3_lab6=0x7f03000d;
+        public static final int item_view=0x7f03000e;
     }
     public static final class menu {
         public static final int main=0x7f080000;

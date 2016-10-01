@@ -42,6 +42,9 @@
         <activity android:name="lab6.com.lab6"
             android:label="LAB 6"
             android:icon="@drawable/iconmb"></activity>
+        <activity android:name="lab6.com.tab1_lab6"></activity>
+        <activity android:name="lab6.com.tab2_lab6"></activity>
+        <activity android:name="lab6.com.tab3_lab6"></activity>
         <activity android:name="lab7.com.lab7"
             android:label="LAB 7"
             android:icon="@drawable/iconmb"></activity>
